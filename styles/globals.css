@@ -9,7 +9,9 @@
 }
 
 body {
-  margin: 0;
+  min-inline-size: 320px;
+  min-block-size: 100dvb;
+  margin: 0 auto;
 }
 
 h1,

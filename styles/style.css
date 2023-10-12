@@ -375,16 +375,14 @@
   border: var(--main-border);
   margin-inline: 30px;
   margin-block-end: 30px;
-}
 
-.dialog__button-capture {
   font-family: 'PressStart 2P Regular', Courier;
   color: var(--main-color);
   font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
   font-weight: var(--main-weight);
   line-height: 90%;
   text-transform: uppercase;
-  padding-block: 9px;
+  min-height: 38px;
 }
 
 .dialog__floppy {

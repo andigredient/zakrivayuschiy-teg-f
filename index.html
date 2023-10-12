@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="color-scheme">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закрывающий тег</title>
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
@@ -15,8 +16,8 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="header__title">&lt/html&gt</h1>
-      <h2 class="header__subtitle">закрывающий тег</h2>
+      <a href="0#" class="header__title">&lt;/html&gt;</a>
+      <h1 class="header__subtitle">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -45,9 +46,9 @@
     </header>
     <main>
       <section class="section__card">
-        <h3 class="section__card-title">
+        <h2 class="section__card-title">
           Фритрек и нулевой спринт: Подготовка к работе
-        </h3>
+        </h2>
         <div class="section__img watermark-html filter-zero-sprint"></div>
         <div class="under-picture">
           <p class="section__card-argument">
@@ -61,6 +62,7 @@
           </p>
           <div class="section__block-button-and-heart">
             <svg
+              aria-hidden="true"
               class="like-icon card__icon-button"
               xmlns="http://www.w3.org/2000/svg"
               width="43"
@@ -468,16 +470,14 @@
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
-    </main>
 
-    <script src="./scripts/like.js"></script>
 
     <dialog class="dialog" id="dialog-id">
       <div class="dialog__content">
         <svg viewBox="0 0 40 40" class="dialog__floppy">
           <use href="svg/floppy2.svg#save-icon" />
         </svg>
-        <h2 class="dialog-title">Вставьте дискету, чтобы продолжить</h2>
+        <p class="dialog-title">Вставьте дискету, чтобы продолжить</p>
       </div>
       <button
         type="button"
@@ -485,8 +485,12 @@
         aria-controls="dialog-id"
         class="dialog__button"
       >
-        <h2 class="dialog__button-capture">Ок</h2>
+        <p class="dialog__button-capture">Ок</p>
       </button>
     </dialog>
+  </main>
+
+    <script src="./scripts/like.js"></script>
+
   </body>
 </html>

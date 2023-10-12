@@ -14,18 +14,18 @@
     --linear-gradient-point: #004306;
     --main-border: 2px solid #00CC14;
     --themes-background: #000;
-    --main-font-normal: 'PressStart 2P Regular', Courier;
-    --main-font-variable: 'Inter',monospace;
     --main-shadow: 2px 2px #00CC14;
     --main-color:#00CC14;
     --main-color-blend-mode:#00CC14;
     --main-fill-heart-contour: #00CC14;
     --main-fill-heart-contour-is-liked: #FF0000;
     --main-fill-floppy: #00CC14;
+    --dilog-fill-floppy:#00CC14;    
     --main-fill-floppy-hover: #00CC14;
     --underline-transition: #00CC14;  
     --main-background-hover: #00CC14;
     --main-watermark: #00CC14;
+    --main-weight:400;
   }  
   
   @media (prefers-color-scheme: dark) {
@@ -37,18 +37,18 @@
       --linear-gradient-point: #004306;
       --main-border: 2px solid #00CC14;
       --themes-background: #000;
-      --main-font-normal: 'PressStart 2P Regular', Courier;
-      --main-font-variable: 'Inter',monospace;
       --main-shadow: 2px 2px #00CC14;
       --main-color:#00CC14;
       --main-color-blend-mode:#00CC14;
       --main-fill-heart-contour: #00CC14;
       --main-fill-heart-contour-is-liked: #FF0000;
       --main-fill-floppy: #00CC14;
+      --dilog-fill-floppy:#00CC14;
       --main-fill-floppy-hover: #00CC14;
       --underline-transition: #00CC14;  
       --main-background-hover: #00CC14;
       --main-watermark: #00CC14;
+      --main-weight:400;
     }
   }
 
@@ -59,16 +59,16 @@
     --linear-gradient-point: #1a1a1a;
     --main-border: 2px solid #000;
     --themes-background: #FFF;
-    --main-font-normal: 'PressStart 2P Regular', Courier;
-    --main-font-variable: 'Inter',monospace;
     --main-shadow: 2px 2px #000;
     --main-color:#000;
     --main-color-blend-mode:#fff;
     --main-fill-heart-contour: #000;
     --main-fill-heart-contour-is-liked: #FF0000;
     --main-fill-floppy: #fff;
+    --dilog-fill-floppy:#000;
     --main-fill-floppy-hover: #FFF;
     --underline-transition: #000;
     --main-background-hover: #000;
     --main-watermark: #fff;
+    --main-weight:400;
   }

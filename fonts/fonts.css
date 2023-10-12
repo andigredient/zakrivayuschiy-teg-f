@@ -4,7 +4,6 @@
     font-family: 'PressStart 2P Regular';
     src:
       local('PressStart2P-Regular'),
-      url('./PressStart2P-Regular.woff') format('woff supports variations'),
       url('./PressStart2P-Regular.woff') format('woff-variations');
     font-weight: 400;
   }
@@ -16,5 +15,5 @@
       local('Inter-Variable'),
       url('./Inter-Variable.woff2') format('woff2 supports variations'),
           url('./Inter-Variable.woff2') format('woff2-variations');
-     font-weight: 700 785;     
+     font-weight: 400 785;     
   }

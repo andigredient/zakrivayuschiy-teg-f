@@ -60,3 +60,30 @@
     opacity: 0;
   }
 }
+
+.like-icon.is-liked .heart {
+  transform-origin: center;
+  animation-name: heart;
+  animation-delay: 0.1s;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-direction: normal;
+}
+
+.like-icon.is-liked .sparks {
+  animation-name: sparks;
+  animation-delay: 0.3s;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-direction: normal;
+}
+
+.theme-menu__button:disabled::before {
+  content: "▶";
+  animation-name: button;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position: absolute;
+}

@@ -6,18 +6,18 @@
     --linear-gradient-point: #1a1a1a;
     --main-border: 2px solid #000;
     --themes-background: #FFF;
-    --main-font-normal: 'PressStart 2P Regular', Courier;
-    --main-font-variable: 'Inter',monospace;
     --main-shadow: 2px 2px #000;
     --main-color:#000;
     --main-color-blend-mode:#fff;
     --main-fill-heart-contour: #000;
     --main-fill-heart-contour-is-liked: #FF0000;
-    --main-fill-floppy: #000;
+    --main-fill-floppy: #fff;
+    --dialog-fill-floppy:#000;
     --main-fill-floppy-hover: #FFF;
     --underline-transition: #000;
     --main-background-hover: #000;
     --main-watermark: #fff;
+    --main-weight:400;
 }
 
 
